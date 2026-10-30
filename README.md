@@ -11,17 +11,3 @@ Baseline run 3.
 Baseline run 4.
 
 Baseline run 5.
-
-After change 1.
-
-After change 2.
-
-After change 3.
-
-After change 4.
-
-After change 5.
-
-After change 6.
-
-After change 7.
