@@ -28,7 +28,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - name: unit and service tests
-        run: node --test --test-concurrency=4 "test/**/*.test.js"
+        run: node --test --test-concurrency=4 test/
 
   e2e:
     runs-on: ubuntu-latest
