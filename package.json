@@ -1,0 +1,17 @@
+{
+  "name": "ci-durability-drill",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "test": "node --test --test-concurrency=4 test/",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "pg": "8.13.1",
+    "redis": "4.7.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2"
+  }
+}
