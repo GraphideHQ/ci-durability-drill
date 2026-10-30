@@ -4,5 +4,5 @@ export default defineConfig({
   testDir: './e2e',
   workers: 2,
   reporter: 'list',
-  projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
+  projects: [{ name: 'firefox', use: { ...devices['Desktop Firefox'] } }],
 });
